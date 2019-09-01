@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "158438062632",
+    "firebase_url": "https://free-ebookstore-myanmar.firebaseio.com",
+    "project_id": "free-ebookstore-myanmar",
+    "storage_bucket": "free-ebookstore-myanmar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158438062632:android:a060fc77c7046949",
+        "android_client_info": {
+          "package_name": "com.shwenyarmya.ebookstore.myanmar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158438062632-t4vtbgnqs79j6rd5fu62qn7btrtqk8jp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0qpejF2qwYqV3SlcPB5yhuFBfee3_yic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158438062632-t4vtbgnqs79j6rd5fu62qn7btrtqk8jp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/text_rating_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/raing"
+            android:textColor="@color/textView_dialogbox_comment"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/image_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_close" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/thanks_for_rating_msg"
+        android:textColor="@color/light_gray"
+        android:textSize="18sp" />
+
+    <com.github.ornolfr.ratingview.RatingView
+        android:id="@+id/ratingBar_dialogbox_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        app:drawable_empty="@drawable/stare"
+        app:drawable_filled="@drawable/select_stare"
+        app:drawable_margin="3dp"
+        android:layout_gravity="center"
+        app:drawable_size="40dp"
+        app:is_indicator="false"
+        app:max_count="5" />
+
+
+    <Button
+        android:id="@+id/button_dialogBox_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button_login_bg"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="@string/submit"
+        android:textColor="@color/white" />
+
+</LinearLayout>

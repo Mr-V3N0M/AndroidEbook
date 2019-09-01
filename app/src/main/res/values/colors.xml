@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5387ED</color>
+    <color name="colorPrimaryDark">#4773CA</color>
+    <color name="colorAccent">#5387ED</color>
+
+    <color name="toolbar">#5387ED</color>
+    <color name="app_background">#21272E</color>
+    <color name="drawer_background">#ffffff</color>
+    <color name="drawer_item">#626262</color>
+    <color name="drawer_item_selected">#5387ED</color>
+    <color name="drawar_text_select">#5387ED</color>
+    <color name="drawar_image_select">#5387ED</color>
+    <color name="blue">#5387ED</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="card_profile_bg">#2C323A</color>
+    <color name="detail_page_white">#CFCFCF</color>
+    <color name="blue_gray">#888D9F</color>
+    <color name="imageView_boder_profile">#EAEAEA</color>
+    <color name="textView_login_forgot_password">#888D9F</color>
+    <color name="view_profile">#3b4048</color>
+    <color name="textView_name_sub_category_detail">#606060</color>
+    <color name="textView_authorName_scd">#8A8A8A</color>
+    <color name="textView_login">#FFFFFF</color>
+    <color name="light_gray">#A2A2A2</color>
+    <color name="textView_register">#FFFFFF</color>
+    <color name="textView_rate_latestListView_adapter">#FFFFFF</color>
+    <color name="detail_favorite">#888d9f</color>
+    <color name="view_latestListView_adapter">#3b4048</color>
+    <color name="card_view_list">#2C323A</color>
+    <color name="view_latest_fragment">#CDCDCD</color>
+    <color name="comment_text">#FFFFFF</color>
+    <color name="textView_dialogbox_comment">#FFFFFF</color>
+    <color name="download_bg2">#282E35</color>
+    <color name="download_bg1">#21272E</color>
+    <color name="button_download">#FFFFFF</color>
+    <color name="view_login">#80FFFFFF</color>
+    <color name="drawar_text">#FF929292</color>
+    <color name="search_text">#FF929292</color>
+    <color name="nav_header_drawar_text">#FFFFFFFF</color>
+
+    <color name="switch_activated">#5387ED</color>
+    <color name="switch_normal">#888D9F</color>
+    <color name="unselect_indicater">#B7B7B7</color>
+    <color name="selectedColor">#5387ED</color>
+    <color name="unselectedColor">#B7B7B7</color>
+    <color name="textView_sub_tag">#888DA0</color>
+    <color name="textView_tag_adapter">#313234</color>
+    <color name="next_button_tag">#2F363E</color>
+    <color name="skip_button_tag">#E2E2E4</color>
+
+</resources>
